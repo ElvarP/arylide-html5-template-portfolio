@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Arylide HTML5 Template (Portfolio)</title>
+		<link rel="stylesheet" href="css/main.css" />
+	</head>
+	<body>
+		<header class="bg-amber-200 p-4 flex justify-between relative">
+			<a class="text-amber-900 text-2xl font-extrabold" href="">Arylide </a>
+			<nav id="navigation" class="bg-white xl:bg-transparent transition-all max-h-0 xl:max-h-full overflow-hidden absolute top-16 left-4 right-4 xl:static">
+				<div class="flex flex-col gap-2 xl:flex-row xl:gap-0 xl:flex p-6 xl:p-0 xl:just">
+					<a class="py-2 px-4 text-amber-900 text-lg hover:bg-amber-300 active:bg-amber-400" href="#home">Home</a>
+					<a class="py-2 px-4 text-amber-900 text-lg hover:bg-amber-300 active:bg-amber-400" href="#about">About</a>
+					<a class="py-2 px-4 text-amber-900 text-lg hover:bg-amber-300 active:bg-amber-400" href="#experience-education">Experience & Education</a>
+					<a class="py-2 px-4 text-amber-900 text-lg hover:bg-amber-300 active:bg-amber-400" href="#skills">Skills</a>
+					<a class="py-2 px-4 text-amber-900 text-lg hover:bg-amber-300 active:bg-amber-400" href="#portfolio">Portfolio</a>
+					<a class="py-2 px-4 text-amber-900 text-lg hover:bg-amber-300 active:bg-amber-400" href="#contact">Contact</a>
+				</div>
+			</nav>
+			<a href="#contact" class="hidden xl:block text-amber-50 p-4 bg-amber-900 hover:bg-amber-800 active:bg-amber-700 shadow-lg">
+				Contact Me
+				<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="inline w-6 h-6">
+					<path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
+				</svg>
+			</a>
+			<div id="toggleNavigation" class="z-10 xl:hidden">
+				<label class="cursor-pointer flex flex-col w-8 h-8 justify-between overflow-hidden">
+					<input id="toggleNavigation" type="checkbox" class="peer appearance-none" />
+					<span class="bg-amber-900 h-[2px] w-8 transition-all origin-left peer-checked:rotate-[42deg]"></span>
+					<span class="bg-amber-900 h-[2px] w-8 transition-all peer-checked:bg-opacity-0"></span>
+					<span class="bg-amber-900 h-[2px] w-8 transition-all origin-left peer-checked:-rotate-[42deg]"></span>
+				</label>
+			</div>
+		</header>
+		<main id="home" class="bg-amber-200 flex flex-col p-4 py-20 md:py-32 lg:py-48 xl:py-64">
+			<div class="flex flex-col w-max self-end md:self-center">
+				<h1 class="text-5xl md:text-7xl lg:text-8xl xl:text-9xl text-amber-900 uppercase tracking-widest font-oswald font-light text-right self-end">Jón Jónsson.</h1>
+				<p class="text-md md:text-lg lg:text-xl xl:text-2xl text-amber-800 pr-8 text-right">
+					Senior Frontend Developer
+					<br />
+					Head of design at <a href="https://www.elvarp.is" class="text-amber-900 underline underline-offset-2 text-right">elvarp.is</a>
+				</p>
+			</div>
+		</main>
+		<section id="about" class="py-20 px-4">
+			<div class="container mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12">
+				<div class="flex flex-col gap-6">
+					<h1 class="text-4xl lg:text-5xl xl:text-6xl text-amber-800 uppercase font-oswald">About</h1>
+					<p class="lg:text-xl">
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat ab modi ad, optio repellendus quibusdam ratione omnis unde minima aliquam accusamus provident excepturi placeat
+						debitis nihil atque laboriosam iusto cumque!
+					</p>
+					<p class="lg:text-xl">
+						Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo iure, vitae mollitia quisquam accusantium illo labore necessitatibus. Ipsa asperiores magni dolorem, odio
+						molestiae perspiciatis nemo. Sequi maxime quos soluta debitis.
+					</p>
+				</div>
+				<img class="rounded-sm" src="img/human.jpg" alt="" />
+			</div>
+		</section>
+		<section id="experience-education" class="bg-amber-900 py-20 px-4">
+			<div class="container mx-auto flex flex-col gap-12">
+				<div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
+					<div class="flex flex-col gap-12">
+						<h1 class="text-4xl lg:text-5xl xl:text-6xl text-orange-50 uppercase font-oswald font-light">Experience</h1>
+						<div class="flex flex-col gap-16">
+							<div class="experience flex flex-col gap-1">
+								<h1 class="text-lg lg:text-xl xl:text-2xl text-amber-200 font-light">Tradesperson's assistant</h1>
+								<a class="text-lg lg:text-xl xl:text-2xl text-amber-200 font-light" href="">Dana and Daughters </a>
+								<p class="text-lg lg:text-xl xl:text-2xl text-amber-50 font-light">2022 - Present</p>
+							</div>
+							<div class="experience flex flex-col gap-1">
+								<h1 class="text-lg lg:text-xl xl:text-2xl text-amber-200 font-light">Part time tea maker</h1>
+								<a class="text-lg lg:text-xl xl:text-2xl text-amber-200 font-light" href="">Simon and Sons</a>
+								<p class="text-lg lg:text-xl xl:text-2xl text-amber-50 font-light">2019 - 2022</p>
+							</div>
+						</div>
+					</div>
+
+					<div class="flex flex-col gap-12">
+						<h1 class="text-4xl lg:text-5xl xl:text-6xl text-orange-50 uppercase font-oswald font-light">Education</h1>
+						<div class="experience flex flex-col gap-1">
+							<h1 class="text-lg lg:text-xl xl:text-2xl text-amber-200 font-light">Bachelor's degree in computer science</h1>
+							<a class="text-lg lg:text-xl xl:text-2xl text-amber-200 font-light" href="">Some college</a>
+							<p class="text-lg lg:text-xl xl:text-2xl text-amber-50 font-light">2015 - 2019</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section id="skills" class="bg-amber-200 py-20 px-4">
+			<div class="container mx-auto flex flex-col gap-12">
+				<h1 class="text-4xl lg:text-5xl xl:text-6xl text-amber-800 uppercase font-oswald font-light">Skills</h1>
+				<div class="grid grid-cols-1 lg:grid-cols-3 gap-12">
+					<div class="experienced bg-amber-50 p-8 rounded-sm flex flex-col gap-4">
+						<h1 class="text-xl text-lg lg:text-xl xl:text-2xl text-amber-700">Web Design</h1>
+						<p class="lg:text-lg text-amber-900">
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat id ipsum beatae nesciunt. Voluptatibus deserunt praesentium optio, rem beatae porro labore tempora nostrum
+							asperiores, vitae, expedita earum maiores quam repellat?
+						</p>
+					</div>
+					<div class="experienced bg-amber-50 p-8 rounded-sm flex flex-col gap-4">
+						<h1 class="text-xl text-lg lg:text-xl xl:text-2xl text-amber-700">Graphic Design</h1>
+						<p class="text-amber-900">
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat id ipsum beatae nesciunt. Voluptatibus deserunt praesentium optio, rem beatae porro labore tempora nostrum
+							asperiores, vitae, expedita earum maiores quam repellat?
+						</p>
+					</div>
+					<div class="experienced bg-amber-50 p-8 rounded-sm flex flex-col gap-4">
+						<h1 class="text-xl text-lg lg:text-xl xl:text-2xl text-amber-700">UI / UX Design</h1>
+						<p class="text-amber-900">
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat id ipsum beatae nesciunt. Voluptatibus deserunt praesentium optio, rem beatae porro labore tempora nostrum
+							asperiores, vitae, expedita earum maiores quam repellat?
+						</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section id="portfolio" class="py-20 px-4">
+			<div class="container mx-auto flex flex-col gap-12">
+				<h1 class="text-4xl lg:text-5xl xl:text-6xl text-amber-800 uppercase font-oswald font-light">Portfolio</h1>
+
+				<div class="grid grid-cols-1 md:grid-cols-2 gap-4 max-w-7xl mx-auto">
+					<div class="portfolio-item relative group flex">
+						<img class="group-hover:brightness-50 transition-all object-cover" src="img/portfolio-1.jpg" alt="" />
+						<div class="portfolio-item-overlay flex justify-between absolute bottom-0 left-0 right-0 p-4 opacity-0 group-hover:opacity-100 transition-all">
+							<div class="flex-flex-col">
+								<h1 class="text-4xl text-amber-50 font-oswald uppercase">Project</h1>
+								<p class="text-2xl text-amber-50">Lorem ipsum, dolor sit amet consectetur.</p>
+							</div>
+							<a class="text-2xl text-amber-50 underline underline-offset-8 uppercase self-end" href="">Link</a>
+						</div>
+					</div>
+					<div class="portfolio-item relative group flex">
+						<img class="group-hover:brightness-50 transition-all object-cover" src="img/portfolio-2.jpg" alt="" />
+						<div class="portfolio-item-overlay flex justify-between absolute bottom-0 left-0 right-0 p-4 opacity-0 group-hover:opacity-100 transition-all">
+							<div class="flex-flex-col">
+								<h1 class="text-4xl text-amber-50 font-oswald uppercase">Project</h1>
+								<p class="text-2xl text-amber-50">Lorem ipsum, dolor sit amet consectetur.</p>
+							</div>
+							<a class="text-2xl text-amber-50 underline underline-offset-8 uppercase self-end" href="">Link</a>
+						</div>
+					</div>
+					<div class="portfolio-item relative group flex">
+						<img class="group-hover:brightness-50 transition-all object-cover" src="img/portfolio-3.jpg" alt="" />
+						<div class="portfolio-item-overlay flex justify-between absolute bottom-0 left-0 right-0 p-4 opacity-0 group-hover:opacity-100 transition-all">
+							<div class="flex-flex-col">
+								<h1 class="text-4xl text-amber-50 font-oswald uppercase">Project</h1>
+								<p class="text-2xl text-amber-50">Lorem ipsum, dolor sit amet consectetur.</p>
+							</div>
+							<a class="text-2xl text-amber-50 underline underline-offset-8 uppercase self-end" href="">Link</a>
+						</div>
+					</div>
+					<div class="portfolio-item relative group flex">
+						<img class="group-hover:brightness-50 transition-all object-cover" src="img/portfolio-4.jpg" alt="" />
+						<div class="portfolio-item-overlay flex justify-between absolute bottom-0 left-0 right-0 p-4 opacity-0 group-hover:opacity-100 transition-all">
+							<div class="flex-flex-col">
+								<h1 class="text-4xl text-amber-50 font-oswald uppercase">Project</h1>
+								<p class="text-2xl text-amber-50">Lorem ipsum, dolor sit amet consectetur.</p>
+							</div>
+							<a class="text-2xl text-amber-50 underline underline-offset-8 uppercase self-end" href="">Link</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section id="contact" class="gap-12 bg-amber-900 py-20 px-4">
+			<div class="container mx-auto flex flex-col gap-12">
+				<h1 class="text-4xl text-orange-50 uppercase font-oswald font-light">Contact</h1>
+				<form action="" class="">
+					<div class="flex flex-col lg:flex-row gap-6">
+						<div class="flex flex-col gap-2 flex-1">
+							<label class="text-lg uppercase text-orange-200" for="name">Name</label>
+							<input class="p-3 outline outline-1 outline-amber-600 bg-transparent placeholder:text-orange-200" placeholder="Name" type="text" name="name" id="name" c />
+						</div>
+						<div class="flex flex-col gap-2 flex-1">
+							<label class="text-lg uppercase text-orange-200" for="email">Email</label>
+							<input class="p-3 outline outline-1 outline-amber-600 bg-transparent placeholder:text-orange-200" placeholder="Email" type="text" name="email" id="email" c />
+						</div>
+						<div class="flex flex-col gap-2 flex-1">
+							<label class="text-lg uppercase text-orange-200" for="subject">Subject</label>
+							<input class="p-3 outline outline-1 outline-amber-600 bg-transparent placeholder:text-orange-200" placeholder="Subject" type="subject" name="subject" id="subject" c />
+						</div>
+					</div>
+					<div class="flex flex-col gap-2 mt-4">
+						<label class="text-lg uppercase text-orange-200" for="message">message</label>
+						<textarea class="p-3 outline outline-1 outline-amber-600 bg-transparent placeholder:text-orange-200" name="message" id="message" rows="4" placeholder="Message"></textarea>
+					</div>
+					<button class="mt-4 bg-amber-200 hover:bg-amber-300 active:bg-amber-400 rounded-sm text-amber-900 p-4">Send Message</button>
+				</form>
+			</div>
+		</section>
+		<footer class="bg-amber-900 p-4">
+			<div class="container mx-auto flex flex-col lg:flex-row lg:justify-between gap-3 lg:items-center">
+				<div class="socials flex flex-row gap-2">
+					<a href="" class="social p-2 bg-amber-700 hover:bg-amber-600 active:bg-amber-500 rounded-sm">
+						<svg class="w-8 h-8 fill-amber-200" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 310 310" style="enable-background: new 0 0 310 310" xml:space="preserve">
+							<path
+								d="M81.703 165.106h33.981V305a5 5 0 0 0 5 5H178.3a5 5 0 0 0 5-5V165.765h39.064a5 5 0 0 0 4.967-4.429l5.933-51.502a5 5 0 0 0-4.966-5.572h-44.996V71.978c0-9.732 5.24-14.667 15.576-14.667h29.42a5 5 0 0 0 5-5V5.037a5 5 0 0 0-5-5h-40.545A39.746 39.746 0 0 0 185.896 0c-7.035 0-31.488 1.381-50.804 19.151-21.402 19.692-18.427 43.27-17.716 47.358v37.752H81.703a5 5 0 0 0-5 5v50.844a5 5 0 0 0 5 5.001z" />
+						</svg>
+					</a>
+					<a href="" class="social p-2 bg-amber-700 hover:bg-amber-600 active:bg-amber-500 rounded-sm">
+						<svg class="w-8 h-8 fill-amber-200" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 310 310" style="enable-background: new 0 0 310 310" xml:space="preserve">
+							<path
+								d="M302.973 57.388a117.512 117.512 0 0 1-14.993 5.463 66.276 66.276 0 0 0 13.494-23.73 5 5 0 0 0-7.313-5.824 117.994 117.994 0 0 1-34.878 13.783c-12.381-12.098-29.197-18.983-46.581-18.983-36.695 0-66.549 29.853-66.549 66.547 0 2.89.183 5.764.545 8.598C101.163 99.244 58.83 76.863 29.76 41.204a5.001 5.001 0 0 0-8.196.642c-5.896 10.117-9.013 21.688-9.013 33.461 0 16.035 5.725 31.249 15.838 43.137a56.37 56.37 0 0 1-8.907-3.977 5 5 0 0 0-7.427 4.257c-.007.295-.007.59-.007.889 0 23.935 12.882 45.484 32.577 57.229a57.372 57.372 0 0 1-5.063-.735 4.998 4.998 0 0 0-5.699 6.437c7.29 22.76 26.059 39.501 48.749 44.605-18.819 11.787-40.34 17.961-62.932 17.961a120.4 120.4 0 0 1-14.095-.826 5 5 0 0 0-3.286 9.174c29.023 18.609 62.582 28.445 97.047 28.445 67.754 0 110.139-31.95 133.764-58.753 29.46-33.421 46.356-77.658 46.356-121.367 0-1.826-.028-3.67-.084-5.508 11.623-8.757 21.63-19.355 29.773-31.536a5 5 0 0 0-6.182-7.351z" />
+						</svg>
+					</a>
+					<a href="" class="social p-2 bg-amber-700 hover:bg-amber-600 active:bg-amber-500 rounded-sm">
+						<svg class="w-8 h-8 fill-amber-200" viewBox="0 0 256 256" id="Flat" xmlns="http://www.w3.org/2000/svg">
+							<path
+								d="M224,224a8.00039,8.00039,0,0,1-8,8,32.03667,32.03667,0,0,1-32-32v-8a16.01833,16.01833,0,0,0-16-16H156v40a16.01833,16.01833,0,0,0,16,16,8,8,0,0,1,0,16,32.03667,32.03667,0,0,1-32-32V176H116v40a32.03667,32.03667,0,0,1-32,32,8,8,0,0,1,0-16,16.01833,16.01833,0,0,0,16-16V176H88a16.01833,16.01833,0,0,0-16,16v8a32.03667,32.03667,0,0,1-32,32,8,8,0,0,1,0-16,16.01833,16.01833,0,0,0,16-16v-8a31.9949,31.9949,0,0,1,14.78076-26.95068A55.951,55.951,0,0,1,48,120v-8a58.0419,58.0419,0,0,1,7.69482-28.32031A59.73551,59.73551,0,0,1,61.07178,36,7.99908,7.99908,0,0,1,68,32a59.74952,59.74952,0,0,1,48.00732,23.999L139.99219,56A59.74792,59.74792,0,0,1,188,32a7.99908,7.99908,0,0,1,6.92822,4,59.73339,59.73339,0,0,1,5.37647,47.67969A58.04124,58.04124,0,0,1,208,112v8a55.951,55.951,0,0,1-22.78076,45.04932A31.9949,31.9949,0,0,1,200,192v8a16.01833,16.01833,0,0,0,16,16A8.00039,8.00039,0,0,1,224,224Z" />
+						</svg>
+					</a>
+				</div>
+				<p class="text-amber-200 lg:order-first">Code by <a class="underline underline-offset-4" href="">elvarp.is</a></p>
+			</div>
+		</footer>
+		<script type="module" src="js/main.js"></script>
+	</body>
+</html>
